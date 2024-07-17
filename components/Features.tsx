@@ -53,7 +53,7 @@ type FeatureItem = {
 
 const FeatureItem = ({ title, icon, description }: FeatureItem) => {
   return (
-    <li className="flex w-full flex-1 flex-col items-start p-5 rounded shadow-2">
+    <li className="flex w-full flex-1 flex-col items-start p-5 rounded shadow">
       <div className="rounded-full p-4 lg:p-7 bg-green-50">
         <Image src={icon} alt="map" width={50} height={50} />
       </div>
